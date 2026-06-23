@@ -145,3 +145,11 @@ body {
     box-sizing: border-box;
     outline: none;
 }
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #ffcc55;
+    font-family: "vt323", monospace;
+    font-size: 14px;
+}
