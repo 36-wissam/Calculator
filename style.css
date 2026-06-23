@@ -149,7 +149,14 @@ body {
 .footer {
     margin-top: 20px;
     text-align: center;
-    color: #ffcc55;
+    color: #ffffff;
     font-family: "vt323", monospace;
     font-size: 14px;
+}
+a {
+    color: #ffcc55;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
