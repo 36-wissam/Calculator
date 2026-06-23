@@ -6,7 +6,7 @@ This project focuses on building a functional calculator website using HTML, CSS
 ---
 # Link
 
-[calculator link](calc.wissam.tech) .
+[calculator link](https://calc.wissam.tech/) .
 
 ---
 
