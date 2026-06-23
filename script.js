@@ -4,6 +4,7 @@ const Display = document.getElementById('display');
 const ClearButton = document.getElementById('clear');
 const EqualsButton = document.getElementById('equals');
 const OperatorButtons = document.querySelectorAll('.operator');
+const BackspaceButton = document.getElementById('backspace');
 
 let currentInput = '';
 let operator = null;
@@ -117,6 +118,12 @@ function handleClearClick() {
     updateDisplay();
 }
 
+// Function to handle backspace button click
+function handleBackspaceClick() {
+    currentInput = currentInput.slice(0, -1);
+    updateDisplay();
+}
+
 // Event listeners
 NumberButtons.forEach(button => {
     button.addEventListener('click', handleNumberClick);
@@ -128,3 +135,23 @@ OperatorButtons.forEach(button => {
 
 EqualsButton.addEventListener('click', handleEqualsClick);
 ClearButton.addEventListener('click', handleClearClick);
+
+BackspaceButton.addEventListener('click', handleBackspaceClick);
+
+// support keyboard input
+document.addEventListener('keydown', (event) => {
+    const key = event.key;
+    
+    if (!isNaN(key)) {
+        currentInput += key;
+        updateDisplay();
+    } else if (['+', '-', '*', '/'].includes(key)) {
+        handleOperatorClick({ target: { textContent: key } });
+    } else if (key === 'Enter') {
+        handleEqualsClick();
+    } else if (key === 'Escape') {
+        handleClearClick();
+    } else if (key === 'Backspace') {
+        handleBackspaceClick();
+    }
+});

@@ -114,9 +114,10 @@ body {
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
-    min-width: 245px;
+    min-width: 100px;
     transition: background-color 0.3s;
     transform: scale(1);
+    font-family: "vt323", monospace;
 
 }
 #clear:hover {
@@ -159,4 +160,34 @@ a {
 }
 a:hover {
     text-decoration: underline;
+}
+
+.idk {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#backspace {
+    background-color: #4e2e05;
+    color: #ffcc55;
+    border: none;
+    padding: 12px;
+    margin: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    min-width: 100px;
+    transition: background-color 0.3s;
+    transform: scale(1);
+    flex-grow: 1;
+    font-family: "vt323", monospace;
+}
+#backspace:hover {
+    background-color: #6a3e0a;
+    transform: scale(1.05);
+}
+#backspace:active {
+    background-color: #7a4e14;
+    transform: scale(1);
 }
