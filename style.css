@@ -5,10 +5,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     margin: 0;
     flex-direction: column;
-    background: IMZ;
     background-color: rgb(17, 15, 13);
 }
 
@@ -27,6 +25,7 @@ body {
     padding: 20px;
     border-radius: 12px;
     box-shadow: #6a3e0a 0px 0px 8px;
+    
 
 }
 
@@ -49,6 +48,7 @@ body {
     font-weight: bold;
     transition: background-color 0.3s;
     transform: scale(1);
+    font-family: 'VT323', monospace;
 }
 
 .btn:hover {
@@ -71,6 +71,7 @@ body {
     font-weight: bold;
     transition: background-color 0.3s;
     transform: scale(1);
+    font-family: 'VT323', monospace;
 
 }
 .operator:hover {
@@ -94,6 +95,7 @@ body {
     font-weight: bold;
     transition: background-color 0.3s;
     transform: scale(1);
+    font-family: 'VT323', monospace;
 }
 #equals:hover {
     background-color: #e88010;
@@ -117,7 +119,7 @@ body {
     min-width: 100px;
     transition: background-color 0.3s;
     transform: scale(1);
-    font-family: "vt323", monospace;
+    font-family: 'VT323', monospace;
 
 }
 #clear:hover {
