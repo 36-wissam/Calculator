@@ -34,13 +34,14 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     max-width: 260px;
+    
 }
 
 .btn {
     background-color: #cf9b00;
     color: white;
     border: none;
-    padding: 14px 22px;
+    padding: 15px 20px;
     margin: 5px;
     border-radius: 8px;
     cursor: pointer;
@@ -63,7 +64,7 @@ body {
     background-color: #1a1008;
     color: #cf9b00;
     border: none;
-    padding: 14px 22px;
+    padding: 15px 20px;
     margin: 5px;
     border-radius: 8px;
     cursor: pointer;
@@ -87,7 +88,7 @@ body {
     background-color: #da6f05;
     color: white;
     border: none;
-    padding: 14px 22px;
+    padding: 15px 20px;
     margin: 5px;
     border-radius: 8px;
     cursor: pointer;
@@ -110,13 +111,13 @@ body {
     background-color: #4e2e05;
     color: #ffcc55;
     border: none;
-    padding: 12px;
+    padding: 15px 20px;
     margin: 5px;
     border-radius: 8px;
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
-    min-width: 100px;
+    min-width: 113px;
     transition: background-color 0.3s;
     transform: scale(1);
     font-family: 'VT323', monospace;
@@ -167,13 +168,13 @@ a:hover {
 .idk {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    max-width: 300px;
 }
 #backspace {
     background-color: #4e2e05;
     color: #ffcc55;
     border: none;
-    padding: 12px;
+    padding: 15px 20px;
     margin: 5px;
     border-radius: 8px;
     cursor: pointer;
