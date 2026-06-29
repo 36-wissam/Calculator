@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@font-face {
+    font-family: 'VT323 Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('VT323 Regular'), url('VT323-Regular.woff') format('woff');
+    }
 
 body { 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'VT323 Regular';
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +16,7 @@ body {
 }
 
 .Header {
-    font-family: 'VT323', monospace;
+    font-family: 'VT323 Regular';
     color: white;
     font-size: 24px;
     margin-bottom: 20px;
@@ -49,7 +54,7 @@ body {
     font-weight: bold;
     transition: background-color 0.3s;
     transform: scale(1);
-    font-family: 'VT323', monospace;
+    font-family:'VT323 Regular';
 }
 
 .btn:hover {
@@ -72,7 +77,7 @@ body {
     font-weight: bold;
     transition: background-color 0.3s;
     transform: scale(1);
-    font-family: 'VT323', monospace;
+    font-family:'VT323 Regular';
 
 }
 .operator:hover {
@@ -96,7 +101,7 @@ body {
     font-weight: bold;
     transition: background-color 0.3s;
     transform: scale(1);
-    font-family: 'VT323', monospace;
+    font-family:'VT323 Regular';
 }
 #equals:hover {
     background-color: #e88010;
@@ -120,7 +125,7 @@ body {
     min-width: 113px;
     transition: background-color 0.3s;
     transform: scale(1);
-    font-family: 'VT323', monospace;
+    font-family:'VT323 Regular';
 
 }
 #clear:hover {
@@ -145,7 +150,7 @@ body {
     border-radius: 8px;
     background-color: #1a1008;
     color: #ffcc55;
-    font-family: "vt323", monospace;
+    font-family:'VT323 Regular';
     box-sizing: border-box;
     outline: none;
 }
@@ -154,7 +159,7 @@ body {
     margin-top: 20px;
     text-align: center;
     color: #ffffff;
-    font-family: "vt323", monospace;
+    font-family:'VT323 Regular';
     font-size: 14px;
 }
 a {
@@ -184,7 +189,7 @@ a:hover {
     transition: background-color 0.3s;
     transform: scale(1);
     flex-grow: 1;
-    font-family: "vt323", monospace;
+    font-family:'VT323 Regular';
 }
 #backspace:hover {
     background-color: #6a3e0a;
